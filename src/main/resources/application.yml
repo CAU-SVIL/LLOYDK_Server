@@ -1,0 +1,14 @@
+# spring
+Server:
+  port: 8080
+
+Spring:
+  profiles:
+    active: local
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
